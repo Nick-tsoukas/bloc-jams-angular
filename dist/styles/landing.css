@@ -5,7 +5,8 @@ body.landing {
 .hero-content {
     position:relative;
     min-height:600px;
-    background-image: url(../assets/images/bloc_jams_bg.jpg);
+/*    background-image: url(../assets/images/bloc_jams_bg.jpg);*/
+    background-image: url(../assets/images/alphacolor-13-181701.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -13,6 +14,7 @@ body.landing {
 }
 
 .hero-content .hero-title {
+    color:white;
      position: absolute;
      top: 40%;
      -webkit-transform: translateY(-50%);
@@ -33,6 +35,11 @@ body.landing {
     
  }
  
+
+
+
+
+        
  .point {
     
      position: relative;
@@ -45,9 +52,11 @@ body.landing {
 
 .point:hover {
     
+/*
     transition-duration:1s;
     background-color:black;
     color:white;
+*/
     
     
 }
@@ -59,6 +68,8 @@ body.landing {
  .ion-music-note,
  .ion-radio-waves,
  .ion-iphone {
-     color: rgb(233,50,117);
-     font-size: 5rem;
+     color: #D31027; /* fallback for old browsers */
+    font-size: 5rem;
  }
+
+

@@ -1,0 +1,179 @@
+*, *::before, *::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    font-size:100%;
+}
+
+body {
+/*
+   background-image: url(../assets/images/blurred_backgrounds/blur_bg_3.jpg);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center center;
+     background-size: cover;
+*/
+     font-family: 'Open Sans';
+     color: black;
+     min-height: 100%;
+     padding-bottom: 200px;
+}
+
+body.landing {
+    background-color: rgb(58,23,63);
+}
+
+.navbar {
+    position: relative;
+    padding: 0.5rem;
+    background-color: rgb(101,18,95,0.5);
+    z-index:1;
+}
+
+.navbar .logo {
+    position: relative;
+    left: 2rem;
+    cursor: pointer;
+}
+
+.navbar .links-container {
+    display:table;
+    position:absolute;
+    top:0;
+    right:0;
+    height:100px;
+    color:white;
+    text-decoration: none;
+}
+.links-container .navbar-link {
+    display: table-cell;
+    position: relative;
+    height:100%;
+    padding-left:1rem;
+    padding-right:1rem;
+    vertical-align: middle;
+    color:white;
+    font-size:0.625rem;
+    letter-spacing:0.05rem;
+    font-weight:700;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.links-container .navbar-link:hover {
+    color:rgb(233,50,117);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 64rem;
+}
+.container.narrow {
+    max-width: 56rem;
+}
+
+@media (min-width: 640px){
+    html { font-size: 112%}
+   
+    .column {
+    float:left;
+    padding-left:1rem;
+    padding-right:1rem;
+}
+    .column.full { width: 100%; }
+    .column.two-thirds { width: 66.7%; }
+    .column.half { width: 50%; }
+    .column.third { width: 33.3%; }
+    .column.fourth { width: 25%; }
+    .column.flow-opposite { float: right; }  
+}
+
+@media (min-width: 1024px) {
+    html { font-size: 120%}
+   
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: " ";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+/* landing page css s*/
+
+
+body.landing {
+    background-color: rgb(58,23,63);
+}
+
+.hero-content {
+    position:relative;
+    min-height:600px;
+    background-image: url(../assets/images/bloc_jams_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+.hero-content .hero-title {
+     position: absolute;
+     top: 40%;
+     -webkit-transform: translateY(-50%);
+     -moz-transform: translateY(-50%);
+     transform: translateY(-50%);
+     width: 100%;
+     text-align: center;
+     font-size: 4rem;
+     font-weight: 300;
+     text-transform: uppercase;
+     letter-spacing: 0.5rem;
+     text-shadow: 1px 1px 0px rgb(58,23,63);
+ }
+ 
+ .selling-points {
+     position: relative;
+    
+    
+ }
+ 
+ .point {
+    
+     position: relative;
+ 
+     padding: 2rem;
+     text-align: center;
+     opacity: 1;
+     
+ }
+
+.point:hover {
+    
+    transition-duration:1s;
+    background-color:black;
+    color:white;
+    
+    
+}
+ 
+ .point .point-title {
+     font-size: 1.25rem;
+ }
+ 
+ .ion-music-note,
+ .ion-radio-waves,
+ .ion-iphone {
+     color: rgb(233,50,117);
+     font-size: 5rem;
+ }
+
