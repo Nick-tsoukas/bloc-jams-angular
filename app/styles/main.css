@@ -72,7 +72,11 @@ body.landing {
 }
 
 .links-container .navbar-link:hover {
-    color:red;
+    color:#dc3741;
+}
+.ion-play:before {
+    content: "\f215";
+    
 }
 
 .container {

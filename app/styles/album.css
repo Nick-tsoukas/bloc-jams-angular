@@ -66,7 +66,7 @@ body.album {
      text-align: center;
      font-size: 14px;
      background-color: white;
-     color: rgb(210, 40, 123);
+     color: #DC3741;
      border-radius: 50% 50%;
      display: inline-block;
      width: 28px;
@@ -77,11 +77,19 @@ body.album {
      padding-left: 2px;
  }
 
- 
+ .album-view-song-item {
+    height: 3rem;
+    border-bottom: 1px solid #DC3741;
+}
  .album-song-button:hover {
      cursor: pointer;
      color: white;
-     background-color: rgb(210, 40, 123);
+     background-color: #DC3741;
+ }
+ .album-song-button {
+     cursor: pointer;
+     color: #DC3741;
+     background-color: white;
  }
  
  .album-song-button span {
