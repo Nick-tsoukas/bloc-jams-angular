@@ -9,6 +9,8 @@
 		 * @type {Object}
 		 */
 		var currentBuzzObject = null;
+        
+         
 
 		/**
 		 * @function
@@ -57,6 +59,7 @@
 		
 		SongPlayer.currentSong = null;
 		SongPlayer.currentTime = null;
+        SongPlayer.volume = null;
 
 
 		/**
@@ -87,6 +90,12 @@
 			currentBuzzObject.pause();
 			song.playing = false;
 		};
+        
+        SongPlayer.setVolume = function(volume) {
+            if (currentBuzzObject) {
+                currentBuzzObject.setVolume(volume)
+            }
+        };
 
 		SongPlayer.previous = function () {
 			var currentSongIndex = getSongIndex(SongPlayer.currentSong);
