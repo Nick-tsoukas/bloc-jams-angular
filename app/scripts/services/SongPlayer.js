@@ -67,7 +67,8 @@
 		 * @desc public function plays new song when called with conditional statements
 		 * @param {Object} song
 		 */
-		SongPlayer.play = function (song) {
+		
+        SongPlayer.play = function (song) {
 			song = song || SongPlayer.currentSong;
 			if (SongPlayer.currentSong !== song) {
 				setSong(song);
