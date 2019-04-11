@@ -1,3 +1,7 @@
+# Back in the Day ... 
+
+![alt text](https://firebasestorage.googleapis.com/v0/b/client-management-111c5.appspot.com/o/bloc.png?alt=media&token=2869892f-3393-4446-97a8-0a1e2d0ee36b)
+
 ## Bloc Frontend Project Starter
 
 A starter application for student projects in Bloc's [Frontend Web Development Course](https://www.bloc.io/frontend-development-bootcamp).
